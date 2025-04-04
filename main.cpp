@@ -9,7 +9,7 @@ bool isPrime(int value) {
 
 int main() {
 	int prime ; 
-	std::cout << "Enter a prime number\n" << std::endl; 
+	std::cout << "Enter a prime number, if its prime , its prime\n" << std::endl; 
 	std::cin >> prime ;
 	if(isPrime(prime)) {
 		std::cout << "this number is prime" << std::endl; 
